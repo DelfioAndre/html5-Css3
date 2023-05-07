@@ -1,0 +1,35 @@
+@charset "UTF-8"
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient( to right, #238cc2, #8bcdd9);
+    color: white;
+    line-height: 21px;
+    font-size: 0.9em;
+}
+main {
+    width: 360px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #01030af3;
+    contain: content;
+    box-shadow: 7px 7px 5px #1323567c;
+}
+div {
+    margin-bottom: 5px;
+}
+.perfil {
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color:#8bcdd9;
+}
