@@ -1,13 +1,13 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'shine' ;
-    src: url('../fontes/Shine\ Personal\ Use.ttf') format(trupentype);
-}
-@font-face {
-    font-family: 'scriptina';
-    src: url('../fontes/SCRIPTIN.ttf') format(trupentype);
-}
 
+@font-face {
+    font-family: 'Passion';
+    src: url(../fontes/PassionOne-Regular.ttf) format(opentype);
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url(../fontes/Sriracha-Regular.ttf) format(opentype);
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -15,12 +15,12 @@
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: Shine Personal Use, sans-serif;
-    --fonte3: scriptina;
+    --fonte2: Passion;
+    --fonte3: Sriracha;
 }
 
 html, body {
-    font-family: var(--fonte1);
+    font-family: var(--fonte3);
     min-height: 100vh;
     background-color: darkgrey;
 }
