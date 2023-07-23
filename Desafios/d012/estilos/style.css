@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'shine' ;
+    src: url('../fontes/Shine\ Personal\ Use.ttf') format(trupentype);
+}
+@font-face {
+    font-family: 'scriptina';
+    src: url('../fontes/SCRIPTIN.ttf') format(trupentype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: Shine Personal Use, sans-serif;
+    --fonte3: scriptina;
+}
+
+html, body {
+    font-family: var(--fonte1);
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header {
+    font-family: var(--fonte2);
+    font-size: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    padding-bottom: 50px;
+    font-variant: small-caps;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--fonte3);
+    font-size: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    
+
+}
+
+section.normal {
+    background-color: wheat;
+    color: rgb(51, 45, 45);
+}
+
+section.imagen {
+    background-color: rgb(54, 49, 49);
+    color: white;
+}
+section.imagen p {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 400px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
